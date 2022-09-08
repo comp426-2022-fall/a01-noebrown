@@ -1,11 +1,20 @@
 {
   "name": "my-own-private-web-server",
-  "version": "0.0.1",
-  "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.\",",
+  "version": "1.0.0",
+  "description": "Server for COMP426 assignment01",
   "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a01-noebrown.git"
