@@ -1,5 +1,5 @@
 {
-  "name": "my-own-private-web-server",
+  "name": "noe-private-web-server",
   "version": "1.0.0",
   "description": "Server for COMP426 assignment01",
   "main": "server.js",
