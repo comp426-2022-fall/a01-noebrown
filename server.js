@@ -5,7 +5,7 @@ const http = require('http')
 const fs = require('fs')
 
 // Require minimist module (make sure you install this one via npm).
-const args = require('minimist')(process.argv,slice(2))
+const args = require('minimist')(process.argv.slice(2))
 
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
 // Define a const `port` using the argument from the command line. 
@@ -37,7 +37,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
         res.setHeader('Content-Type', 'text/html')
         res.end(data)
     })
-    
+
     // Start the `server` const listening on the port defined by argument in your `port` const. 
     // Put the exact message `Server listening on port ${port}` on the console log. 
     server.listen*(port, () => {
